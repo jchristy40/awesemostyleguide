@@ -1,15 +1,30 @@
 h1 {font-family:Oswald}
 .styleguide {
-    width:1300px;
-    margin:auto;
+    width:85%;
+    max-width:1150px;
+    display:block;
 }
 
 .stylesection {
-    width:1050px;
+    width:100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    display:flex;
+    display:block;
     padding:20px;
-    background-color: #a4a4a4;
+    background-color: #fafcff;
     margin: 20px;
+}
+
+.sectioncontainer {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.sectionelement {
+    width:45%;
+    margin:10px;
+}
+
+.sectiontitle {
+    margin-bottom:25px;
 }
